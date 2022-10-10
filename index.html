@@ -1,0 +1,372 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  
+  
+  
+<!--   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
+<style>
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end of reset */
+
+
+
+body {
+  font: normal normal 400;
+  font-size: 100%;
+  line-height: 1.5em;
+  /*also written as...  font: normal normal 400 100%/1.5em;*/
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+p {
+  margin-bottom: 1em;
+  margin-right: 0;
+  margin-left: 3em;
+  margin-right: 1em;
+}
+
+code {
+  font: normal normal;
+  font-size: 90%;
+  /*line-height: 1em;*/
+  font-family: Monaco,Menlo,monospace,sans-serif;
+  color: #aaa;
+}
+
+p code {
+  position: absolute;
+  text-align: right;
+  right: -20%;
+}
+
+
+ul {
+  /*position: relative;*/
+  left: 25%;
+  width: 75%;
+  margin-bottom: 1.5em;
+  margin-top: -0.5em;
+}
+
+/*uncomment to get dashes in the list*/
+/*li:before {
+  content: "-";
+  position: relative;
+  left: -0.25em;
+}*/
+
+li {
+  /*second line indent*/
+  padding-left: 1.25em;
+  text-indent: -1.25em;
+  /*color: #777;*/
+}
+
+li ul {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin-top: 0.25em;
+}
+
+h1,h2,h3,h4 {
+  font-weight: 400;
+  font-family: 'Ubuntu', sans-serif;
+  width: 60%;
+}
+
+h1 {
+  text-align: left;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 0.5em;
+}
+
+/*h1+p {
+  subtitle
+  font-style: italic;
+  font-size: 110%;
+}
+*/
+h2 {
+  font-size: 1.2em;
+  color: #bc412b;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  /*width: 20%;*/
+}
+
+/*h3 {
+  font-size: 1em;
+  line-height: 2em;
+  position: relative;
+  top: 1.7em;
+  text-align: right;
+  width: 20%;
+}*/
+
+h3, h4 {
+  font-size: 1.2em;
+  /*line-height: 1.2em;*/
+
+  font-weight: 600;
+  margin-bottom: 0.7em;
+  margin-right: 1em;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+h2 + h3 {
+  /*margin-top: -1em;*/
+}
+
+h2 + h4 {
+  /*margin-top: -1em;*/
+}
+
+
+
+
+
+a {
+  color: inherit;
+  /*text-decoration:none*/
+}
+
+a:hover {
+  color:#39f
+}
+
+#webaddress {
+  margin-top: 1em;
+  position: relative;
+  left: 25%;
+  color: #bc412b;
+  font-family: Monaco,Menlo,monospace,sans-serif;
+  font-size: 100%;
+}
+
+#webaddress a {
+  text-decoration: none;
+}
+
+em {
+  /* font-weight: bold; */
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#address {
+  display: none;
+}
+
+
+
+/*
+@media only screen and (max-width: 480px) {
+  make one column somehow...
+}*/
+
+  </style>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+    <h1>Ельчин Иван</h1>
+
+<p>Системный аналитик</p>
+
+<p>ivangermes@gmail.com <br />
++7 916 9791895</p>
+
+<h2>Навыки</h2>
+
+<p>Интервьюирование</p>
+
+<p>Customer Development</p>
+
+<p>Data-driven аналитика</p>
+
+<p>Оценка сроков и бюджета</p>
+
+<p>Работа с рисками</p>
+
+<p>Составление требований и ограничений</p>
+
+<p>Use cases</p>
+
+<p>Sketch-макеты</p>
+
+<p>Приемка и клиентское тестирование</p>
+
+<h2>Работа</h2>
+
+<p>Последние 10 лет работал в outsource студии LevelUp Developers.</p>
+
+<h2>Последние проекты</h2>
+
+<h3>Система биллинга для сервиса он-лайн курсов для dvmn.org</h3>
+
+<p><em>Зима 2021 - Лето 2022</em></p>
+
+<p>Выявил стейкхолдеров и проводил с ними интервью.</p>
+
+<p>Сформулировал задачи и спроектировал архитектуру.</p>
+
+<p>Сформировал требования и ограничения продукта.</p>
+
+<p>Написал job-stories.</p>
+
+<p>Надзор за проектированием структуры данных.</p>
+
+<p>Сопровождение разработки.</p>
+
+<h3>Чат-бот для спортивного марафона Sochi 2021 для Honor</h3>
+
+<p><em>Осень 2021</em></p>
+
+<p>Собрал требования со стейкхолдеров заказчика и его партнеров.</p>
+
+<p>Просчитал риски и варианты их решения.</p>
+
+<p>Спроектировал архитектуру и технический стек, с учетом опыта разработчиков и технических рисков.</p>
+
+<p>Спроектировал UX ( в Miro ).</p>
+
+<p>Сформировал требования и задания для разработчиков ( в Miro диаграммах ).</p>
+
+<p>Проводил приемочные тестирования: ( несколько промежуточных и конечное ).</p>
+
+<p>Запустил в эксплуатацию.</p>
+
+<p>Отслеживал метрики, делал аналитику и отчеты заказчикам.</p>
+
+<h3>Продающий виджет, встраиваемый в интернет магазины и маркет-плейсы, для Bosch</h3>
+
+<p><em>2019 - 2020 годы</em></p>
+
+<p>Собрал требования со стейкхолдеров заказчика и его партнеров.</p>
+
+<p>Разработал техническое решение для интеграций с сайтами партнерами, с учетом рисков и ограничений.</p>
+
+<p>Надзор за проектированием API.</p>
+
+<p>Спроектировал UX и UI ( Balsamiq, Figma )</p>
+
+<p>Сформировал требования и задания для разработчиков ( в Miro диаграммах ).</p>
+
+<p>Сопровождение разработки.</p>
+
+<p>Запуск в эксплуатацию.</p>
+
+<p>Консультации и помощь партнерам Bosch по интеграции виджета ( obi, citilink, ozon  и т.п. )</p>
+
+<h2>Технический бекграунд</h2>
+
+<h4>Backend</h4>
+
+<p>Python</p>
+
+<p>Django</p>
+
+<p>AIogram</p>
+
+<p>SQL ( Postgresql )</p>
+
+<p>Node-Red ( low code )</p>
+
+<h4>Frontend</h4>
+
+<p>Vue.js ( junior )</p>
+
+<h4>DevOps</h4>
+
+<p>Docker</p>
+
+<p>Kubernetes ( немного )</p>
+
+<p>Ansible</p>
+
+<h4>UX, UI</h4>
+
+<p>портреты пользователей  </p>
+
+<p>Balsamiq</p>
+
+<p>Figma ( и подобные )</p>
+
+<h2>Ещё навыки</h2>
+
+<p>Проектирование UX</p>
+
+<p>Управление продуктом</p>
+
+<p>Project-menagement</p>
+
+<h2>Образование</h2>
+
+<p>МИФИ - 2004 год <br />
+Инженер-физик по специальности Электроника и автоматика физических установок.</p>
+
+    </div>
+  </div>
+</body>
+</html>
